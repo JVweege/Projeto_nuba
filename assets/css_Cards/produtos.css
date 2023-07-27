@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: white;
+}
+
+header{
+     background: rgb(5,166,196);
+    background: linear-gradient(90deg, rgba(5,166,196,1) 0%, rgba(138,71,168,1) 65%, rgba(214,0,255,1) 100%);
+
+}
+#nuba{
+    text-align: center;
+}
+.pesquisar{
+        border: 1px solid purple;
+        border-radius: 10px;
+        padding: 0.5rem;
+
+}
+.pesquisar:hover{
+    background: rgb(65,192,252);
+    background: linear-gradient(90deg, rgba(65,192,252,1) 0%, rgba(182,125,242,1) 60%, rgba(192,81,238,1) 99%);
+}
+
+/**/
+
+
+
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content:space-evenly
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top:10;
+    text-transform: uppercase;
+}
+
+.footer a:hover{
+    color: gray;
+}
+
+main{
+    margin-bottom: 8%;
+}
+
+main .produto{
+    display: flex;
+    justify-content: center;
+}
+
+.legenda{
+    margin-top: 10%;
+    color: black;
+    font-size: 20px;
+}
+
+.legenda form p{
+    color: black;
+    margin-top: 15%;
+}
+
+input{
+    padding: 1px;
+}
+
+#btcomprar{
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20% 10%;
+}
+#btcomprar:hover{
+    background: rgb(65,192,252);
+    background: linear-gradient(90deg, rgba(65,192,252,1) 0%, rgba(182,125,242,1) 60%, rgba(192,81,238,1) 99%);
+    }
+
+#btfavoritar{
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20% 10%;
+}
+
+#btfavoritar:hover{
+    background: rgb(65,192,252);
+    background: linear-gradient(90deg, rgba(65,192,252,1) 0%, rgba(182,125,242,1) 60%, rgba(192,81,238,1) 99%);
+    }
+
+.botoes{
+    display: flex;
+}
+
+
+footer{
+    margin-top: 3rem;
+    text-align: center;
+}
+.produto img{
+    width: 30rem;
+    height: 30rem;
+    margin-top: 10rem;
+}
+#linha{
+    background: linear-gradient(90deg, rgba(65,192,252,1) 0%, rgba(182,125,242,1) 60%, rgba(192,81,238,1) 99%)   border-box;
+    border: 4px solid transparent;
+}
+#nuba img{
+    text-align: center;
+     width: 300px;
+     transform: translateX(0px);
+     animation:float 2s ease-out infinite;
+
+ }
+ @keyframes float{
+     0%{
+         transform: translateY(0%);
+     }
+     50%{
+         transform: translateY(-5px);
+     }
+     100%{
+         transform: translateY(0%);
+     }
+ }

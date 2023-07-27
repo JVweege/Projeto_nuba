@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+:root{
+    --fonte: 'Roboto', sans-serif;
+    --color:  rgb(5,166,196);
+    
+}
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    border: 2px solid transparent;
+    background: linear-gradient(90deg, rgba(65,192,252,1) 0%, rgba(182,125,242,1) 60%, rgba(192,81,238,1) 99%);
+}
+
+header{
+    background: rgb(5,166,196);
+background: linear-gradient(90deg, rgba(5,166,196,1) 0%, rgba(138,71,168,1) 65%, rgba(214,0,255,1) 100%);
+
+}
+#nuba{
+   text-align: center;
+}
+#nuba img{
+    text-align: center;
+     width: 300px;
+     transform: translateX(0px);
+     animation:float 2s ease-out infinite;
+     
+ }
+ @keyframes float{
+     0%{
+         transform: translateY(0%);
+     }
+     50%{
+         transform: translateY(-5px);
+     }
+     100%{
+         transform: translateY(0%);
+     }
+ }
+.pesquisar{
+       border: 1px solid purple;
+       border-radius: 10px;
+       padding: 0.5rem;
+       
+       
+
+}
+.pesquisar:hover{
+   background: rgb(65,192,252);
+background: linear-gradient(90deg, rgba(65,192,252,1) 0%, rgba(182,125,242,1) 60%, rgba(192,81,238,1) 99%);
+}
+
+
+
+label,input,textarea{
+    display: block;
+}
+label{
+   color: white;
+    padding: 1rem;
+    font-family:var(--fonte)
+}
+input,textarea{
+    padding: .5rem 1rem;
+    margin: 0rem 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+.pessoa{
+    padding: 0rem 28.8rem;
+}
+
+.pessoa input{
+    padding: .5rem 8.8rem;
+}
+
+
+.dados{
+    display: flex;
+    justify-content: center;
+}
+
+.robo{
+    padding: 0rem 29.4rem;
+}
+.enviar{
+    padding: 1rem 28.8rem;
+}
